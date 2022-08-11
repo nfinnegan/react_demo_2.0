@@ -7,11 +7,13 @@ import {
 } from "react-router-dom";
 import "./App.css";
 import { Home } from "./pages/Home/Home";
+import Nav from "./pages/Nav/Nav";
 
 function App() {
   return (
     <div className="App">
       <Router>
+        <Nav />
         <Routes>
           <Route path="/" element={<Home />} />
         </Routes>
