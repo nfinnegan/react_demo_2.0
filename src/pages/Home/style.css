@@ -6,25 +6,20 @@
   color: white;
 }
 
-.toggleImages {
+.toggleImages,
+.btnsGrouped {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 #img1 {
   position: relative;
   top: 30px;
-  height: 600px;
-  width: 340px;
-  border: 2px white;
+  height: 400px;
 }
 #img2 {
-  width: 700px;
-}
-
-.card img {
-  max-width: 100%;
+  height: 550px;
 }
 
 @media (min-width: 390px) {
