@@ -13,6 +13,11 @@ export const Home = () => {
             className="img-responsive"
             alt="toggleThumbsUp"
           />
+          <div className="container btnsGrouped">
+            <button type="button" id="btn1" className="enterBtn btn btn-light">
+              Enter Here
+            </button>
+          </div>
         </div>
         <div>
           <img
@@ -21,15 +26,12 @@ export const Home = () => {
             src="/assets/LD-Toggle-Posed-Lounge-v11Aalpha.png"
             alt='toggleLaidBack"'
           />
+          <div className="container btnsGrouped">
+            <button type="button" id="btn2" className="enterBtn btn btn-light">
+              Enter Here
+            </button>
+          </div>
         </div>
-      </div>
-      <div className="container btnsGrouped">
-        <button type="button" className="enterBtn btn btn-light">
-          Enter Here
-        </button>
-        <button type="button" className="enterBtn btn btn-light">
-          Enter Here
-        </button>
       </div>
     </div>
   );
